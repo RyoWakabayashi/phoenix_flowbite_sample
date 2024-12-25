@@ -21,8 +21,8 @@ import "phoenix_html"
 import {Socket} from "phoenix"
 import {LiveSocket} from "phoenix_live_view"
 import topbar from "../vendor/topbar"
-import "flowbite/dist/flowbite.phoenix.js";
-import Datepicker from "flowbite-datepicker/Datepicker";
+import "flowbite/dist/flowbite.phoenix.js"
+import Datepicker from "flowbite-datepicker/Datepicker"
 
 let csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
 

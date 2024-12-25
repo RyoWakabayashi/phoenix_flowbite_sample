@@ -85,6 +85,7 @@ defmodule PhoenixFlowbiteSampleWeb do
       import Phoenix.HTML
       # Core UI components and translation
       import PhoenixFlowbiteSampleWeb.CoreComponents
+      import PhoenixFlowbiteSampleWeb.FlowbiteComponents
       import PhoenixFlowbiteSampleWeb.Gettext
 
       # Shortcut for generating JS commands
